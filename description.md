@@ -105,54 +105,13 @@ You are required to submit BOTH of the following for review:
 - - -
 © 2022 Trilogy Education Services, LLC, a 2U, Inc. brand. Confidential and Proprietary. All Rights Reserved.
 /* create custom CSS variables (also called custom properties) and apply them to the root of the page, making them accessible to all other CSS */
-:root {
-    /* declare a variable with `--` syntax */
-    --darkest: black;
-    --dark: teal;
-    --med: grey;
-    --light: lightgrey;
-    --lightest: white;
-    --background-color: azure;
-    --border-radius: 5px;
-}
-
-body {
-    color: var(--dark);
-    background-color: var(--background-color);
-}
 
 
-header, main, footer {
-    text-align: center;
-}
 
-.cards {
-    display: flex;
-    flex-wrap: wrap;
-}
+https://www.lipsum.com/
+https://www.w3schools.com/howto/howto_css_zoom_hover.asp
 
-.card {
-    border: 2px dotted var(--light);
-    margin: 25px;
-    display: flex;
-    flex-direction: column;
-}
 
-.card h2 {
-    position: relative;
-    left: 30px;
-    bottom: 30px;
-    border: 2px solid var(--med);
-    width: 75%;
-    border-radius: var(--border-radius);
-    background-color:  var(--background-color);
-    opacity: 100;
-}
+div class for img and then an a href to the google link and another thing for img src then close the image and close the div
 
-.card pre {
-    background-color: var(--dark);
-    opacity: 60%;
-    border-radius: var(--border-radius);
-    margin: 10px;
-    color: var(--lightest);
-}
+<div class="image"><a href="https://google.com"><img src="./assets/images/travel.png"/></div></a>

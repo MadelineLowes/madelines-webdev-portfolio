@@ -1,0 +1,202 @@
+:root {
+    /* declare a variable with `--` syntax */
+    --dark: LightSlateGrey;
+    --med: lightsteelblue;
+    --light: Lavender;
+    --lightest: AliceBlue;
+    --border-radius: 5px;
+}
+
+body {    
+    border: none;
+    /* margin: 0; */
+    /* display: flex; */
+    /* flex-direction: column; */
+    /* align-items: center; */
+    background-color: var(--lightest);
+    font-family: 'Open Sans', sans-serif;
+}
+
+/* h2 elements */
+h1, h2, h3, p, li {
+    margin: 15px;
+    color: var(--lightest);
+}
+
+/* header section */
+header {
+    border: 4px solid black;
+    background-color: var(--dark);
+    display: flex;
+    justify-content: space-between;
+}
+
+header h1 {
+    display: flex;
+    align-items: center;
+    width: 60%;
+    padding: 5px;
+    border: none;
+}
+
+header ul {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    height: 65%;
+    width: auto;
+    margin: 15px;
+    color: var(--lighest);
+    background-color: transparent;
+    border: none;
+    list-style-type: none;
+}
+
+header li {
+    margin: 5px 15px;
+}
+
+nav a {
+    color: var(--lightest);
+    text-decoration: none;
+    border: none;
+}
+
+nav a:hover {
+    font-weight: bold;
+}
+
+/* about me section */
+.aboutme {
+    border: 4px solid var(--dark);
+    margin: 10px;
+    /* width: 100%; */
+    display: flex;
+    background-color: var(--med);
+}
+
+.aboutme p {
+    border: 2px solid var(--dark);
+    padding: 5px;
+}
+
+/* work section */
+/* container */
+.work {    
+    border: 4px solid var(--dark);
+    margin: 10px;
+    /* display: flex; */
+    /* justify-content: flex-start; */
+    background-color: var(--med);
+    align-items: center;
+
+    /* display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    height: 65%;
+    width: auto;
+    margin: 15px;
+    color: var(--lighest);
+    background-color: transparent;
+    border: none; */
+}
+/* header */
+.work h2 {
+    display: flex;
+    align-items: center;
+    width: 60%;
+    padding: 5px;
+    border: none;
+}
+
+/* item */
+.card {    
+    border: 2px solid var(--dark);
+    margin: 10px;
+    /* display: flex; */
+    /* flex-wrap: wrap; */
+    /* align-items: center; */
+    /* flex-direction: column; */
+}
+
+.card img {
+    transition: transform 0.5s;
+    margin: 5px;
+    height: 100px;
+    width: 100px;
+}
+
+.card img:hover {
+    transform: scale(1.25);
+    border: 5px solid var(--lightest);
+    cursor: pointer;
+}
+
+
+.card details {
+    color: var(--lightest);
+}
+
+/* contact me section */
+.contactme {    
+    border: 4px solid var(--dark);
+    margin: 10px;
+    display: flex;
+    background-color: var(--med);
+    align-items: center;
+}
+
+.contactme ul {
+    display: flex;
+    flex-wrap: wrap;
+    height: 100%;
+    color: var(--lighest);
+    background-color: transparent;
+    border: 2px solid black;
+    list-style-type: none;
+}
+
+.contactme li {
+    display: flex;
+    flex-wrap: wrap;
+    border: solid var(--dark);
+    padding: 5px;
+    margin: 5px 10px;
+}
+
+
+/* nav a:hover {}
+
+.contactme nav ul {
+    display: flex;
+    color: var(--lighest);
+    background-color: transparent;
+    border: solid var(--dark);
+    list-style-type: none;
+} */
+
+
+/* resume section */
+.resume {    
+    border: 4px solid var(--dark);
+    margin: 10px;
+    /* width: 100%; */
+    display: flex;
+    background-color: var(--med);
+    align-items: center;
+}
+
+.resume p {
+    border: 2px solid var(--dark);
+    padding: 5px;
+}
+/* footer section */
+.footer {    
+    border: solid;
+    margin: 25px;
+    /* width: 100%; */
+    height: 50px;
+    /* display: flex; */
+    background-color: var(--dark);
+    color: var(--lightest);
+}
