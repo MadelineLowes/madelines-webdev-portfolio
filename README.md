@@ -10,7 +10,7 @@ N/A
 
 ## Usage
 This webpage contains information about myself, Madeline Lowes, and supporting links to external pages and images. Explore each element to see where they'll take you.
-Link to deployed application: https://madelinelowes.github.io/module-02-challenge/
+Link to deployed application: https://madelinelowes.github.io/madelines-portfolio-challenge/
 
 ## Credits
 
