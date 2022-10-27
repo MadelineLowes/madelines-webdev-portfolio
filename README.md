@@ -1,14 +1,22 @@
 # module-02-challenge
 
+## Description
+
+This webpage is my week 2 bootcamp challenge. I created this webpage from scratch with no starter code, and it will be used as my portfolio to showcase my work. I broadened my knowledge of flexbox, css variables, semantic elements, linking external sites and images, etc. This is something that I will utilize and improve upon in the future as I continue to learn.
+
+## Installation
+
+N/A
+
+## Usage
+This webpage contains information about myself, Madeline Lowes, and supporting links to external pages and images. Explore each element to see where they'll take you.
+
+## Credits
+
 https://www.lipsum.com/
-https://www.w3schools.com/howto/howto_css_zoom_hover.asp
+https://www.w3schools.com/howto/
+https://dev.to/
 
+## License
 
-div class for img and then an a href to the google link and another thing for img src then close the image and close the div
-
-<div class="image"><a href="https://google.com"><img src="./assets/images/travel.png"/></div></a>
-
-
-[def]: ./Assets/02-advanced-css-homework-demo.gif
-
-https://dev.to/ibn_abubakre/why-your-z-index-isn-t-working-i6j#:~:text=You%20set%20z%2Dindex%20on,%2C%20it%20won%27t%20work.
+Please refer to the LICENSE in the repo.
