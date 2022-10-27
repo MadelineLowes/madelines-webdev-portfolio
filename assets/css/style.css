@@ -5,18 +5,20 @@
     --light: AliceBlue;
 }
 
+/* for everything within the body unless otherwise specified */
 body {    
     border: none;
     background-color: var(--light);
     font-family: 'Open Sans', sans-serif;
 }
 
-/* h1, h2, h3, p & li elements */
+/* for all h1, h2, h3, p & li elements unless otherwise specified */
 h1, h2, h3, p, li {
     margin: 15px;
     color: var(--light);
 }
 
+/* for all h2 elements */
 h2 {
     font-size: 27px;
     color: var(--light);
@@ -30,42 +32,39 @@ header {
     display: flex;
     justify-content: space-between;
 }
+    /* header items */
+    header h1 {
+        display: flex;
+        align-items: center;
+        width: 60%;
+        padding: 5px;
+        border: none;
+    }
+    header ul {
+        display: flex;
+        flex-wrap: wrap;
+        align-content: center;
+        height: 65%;
+        width: auto;
+        margin: 15px;
+        color: var(--light);
+        background-color: transparent;
+        border: none;
+        list-style-type: none;
+    }
+        header li {
+            margin: 5px 15px;
+        }
 
-/* header items */
-header h1 {
-    display: flex;
-    align-items: center;
-    width: 60%;
-    padding: 5px;
-    border: none;
-}
-
-header ul {
-    display: flex;
-    flex-wrap: wrap;
-    align-content: center;
-    height: 65%;
-    width: auto;
-    margin: 15px;
-    color: var(--light);
-    background-color: transparent;
-    border: none;
-    list-style-type: none;
-}
-
-header li {
-    margin: 5px 15px;
-}
-
+/* nav style elements */
 nav a {
     color: var(--light);
     text-decoration: none;
     border: none;
 }
-
-nav a:hover {
-    font-weight: bold;
-}
+    nav a:hover {
+        font-weight: bold;
+    }
 
 /* about me section */
 /* about me container */
@@ -75,32 +74,29 @@ nav a:hover {
     margin: 10px;
     background-color: var(--med);
 }
-
-/* about me items */
-.aboutme img {
-    float: left;
-    border: 5px solid var(--dark);
-    margin: 0 15px 10px 15px;
-    padding: 5px;
-    height: 150px;
-    width: 150px;
-}
-
-.aboutme h2 {
-    padding: 5px;
-    border: none;
-    margin-bottom: 0;
-}
-
-.aboutme p {
-    display: flex;
-    border: none;
-    padding: 5px;
-    margin: 0 15px 10px 15px;
-}
+    /* about me items */
+    .aboutme img {
+        float: left;
+        border: 5px solid var(--dark);
+        margin: 0 15px 10px 15px;
+        padding: 5px;
+        height: 150px;
+        width: 150px;
+    }
+    .aboutme h2 {
+        padding: 5px;
+        border: none;
+        margin-bottom: 0;
+    }
+    .aboutme p {
+        display: flex;
+        border: none;
+        padding: 5px;
+        margin: 0 15px 10px 15px;
+    }
 
 /* work section */
-/* container */
+/* work container */
 .work {    
     border: 4px solid var(--dark);
     margin: 10px;
@@ -109,59 +105,52 @@ nav a:hover {
     justify-content: flex-end;
     background-color: var(--med);
 }
-/* work item */
-.work h2 {
-    display: flex;
-    padding: 5px;
-    border: none;
-    margin-bottom: 0;
-    width: 100%;
-}
-
-.card {    
-    border: 2px solid var(--dark);
-    margin: 0 20px 15px 15px;
-    height: 200px;
-    width: 200px;
-}
-
-.card h3, img, details, summary {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.card img {
-    transition: transform 0.5s;
-    margin: 5px 50px;
-    height: 100px;
-    width: 100px;
-}
-
-.card img:hover {
-    transform: scale(1.25);
-    border: 5px solid var(--light);
-    cursor: pointer;
-}
-
-.card details {
-    color: var(--light);
-    list-style-type: none;
-}
-
-.card summary:hover {
-    cursor: pointer;
-}
-
-.card details[open] {
-    display: flex;
-    justify-content: center;
-    text-align: center;
-    margin: 10px;
-    padding: 5px;
-    border: 5px solid var(--light);
-    background-color: var(--dark);
-}
+/* work items */
+    .work h2 {
+        display: flex;
+        padding: 5px;
+        border: none;
+        margin-bottom: 0;
+        width: 100%;
+    }
+    .card {    
+        border: 2px solid var(--dark);
+        margin: 0 20px 15px 15px;
+        height: 200px;
+        width: 200px;
+    }
+        .card h3, img, details, summary {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .card img {
+            transition: transform 0.5s;
+            margin: 5px 50px;
+            height: 100px;
+            width: 100px;
+        }
+            .card img:hover {
+                transform: scale(1.25);
+                border: 5px solid var(--light);
+                cursor: pointer;
+            }
+        .card details {
+            color: var(--light);
+            list-style-type: none;
+        }
+            .card summary:hover {
+                cursor: pointer;
+            }
+            .card details[open] {
+                display: flex;
+                justify-content: center;
+                text-align: center;
+                margin: 10px;
+                padding: 5px;
+                border: 5px solid var(--light);
+                background-color: var(--dark);
+            }
 
 /* contact me section */
 /* contact me container */
@@ -172,31 +161,28 @@ nav a:hover {
     display: flex;
     justify-content: space-between;
 }
-
-/* contact me items */
-.contactme h2 {
-    display: flex;
-    align-items: center;
-    width: 20%;
-    padding: 5px;
-    border: none;
-}
-
-.contactme ul {
-    display: flex;
-    flex-wrap: wrap;
-    color: var(--lighest);
-    background-color: transparent;
-    border: none;
-    list-style-type: none;
-}
-
-.contactme li {
-    border: 2px solid var(--dark);
-    padding: 10px 15px;
-    margin: 5px 30px;
-    font-size: 17px;
-}
+    /* contact me items */
+    .contactme h2 {
+        display: flex;
+        align-items: center;
+        width: 20%;
+        padding: 5px;
+        border: none;
+    }
+    .contactme ul {
+        display: flex;
+        flex-wrap: wrap;
+        color: var(--lighest);
+        background-color: transparent;
+        border: none;
+        list-style-type: none;
+    }
+        .contactme li {
+            border: 2px solid var(--dark);
+            padding: 10px 15px;
+            margin: 5px 30px;
+            font-size: 17px;
+        }
 
 /* resume section */
 .resume {    
@@ -207,23 +193,20 @@ nav a:hover {
     align-items: center;
     justify-content: space-between;
 }
-
-.resume a {
-    color: var(--light);
-    text-decoration: none;
-    border: none;
-    margin: 5px 30px;
-}
-
-.resume a:hover {
-    cursor: pointer;
-    font-weight: bold;
-}
+    .resume a {
+        color: var(--light);
+        text-decoration: none;
+        border: none;
+        margin: 5px 30px;
+    }
+        .resume a:hover {
+            cursor: pointer;
+            font-weight: bold;
+        }
 
 /* footer section */
-.footer {    
+footer {    
     border: 5px solid var(--dark);
-    width: 100%;
     background-color: var(--dark);
     color: var(--light);
     display: flex;
