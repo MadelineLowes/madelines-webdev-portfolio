@@ -8,7 +8,7 @@ A portfolio of work can showcase your skills and talents to employers looking to
 
 With these points in mind, in this Challenge you’ll set yourself up for future success by applying the core skills you've recently learned: flexbox, media queries, and CSS variables. You'll get to practice your new skills while creating something that you will use during your job search. It’s a win-win that you'll likely be grateful for in the future!
 
-**Note:** If you don't have enough web applications to showcase at this point, use placeholder images and names. You can change them to real applications as you create them later in the course.
+<!-- **Note:** If you don't have enough web applications to showcase at this point, use placeholder images and names. You can change them to real applications as you create them later in the course. -->
 
 Let’s take a look at what a user story written from the perspective of a hiring manager might look like. As you might remember from your first Challenge, we follow the AS AN / I WANT / SO THAT format. 
 
@@ -29,15 +29,15 @@ Here are the critical requirements necessary to develop a portfolio that satisfi
 ```
 GIVEN I need to sample a potential employee's previous work
 WHEN I load their portfolio
-THEN I am presented with the developer's name, a recent photo or avatar, and links to sections about them, their work, and how to contact them
+<!-- THEN I am presented with the developer's name, a recent photo or avatar, and links to sections about them, their work, and how to contact them -->
 WHEN I click one of the links in the navigation
-THEN the UI scrolls to the corresponding section
+<!-- THEN the UI scrolls to the corresponding section -->
 WHEN I click on the link to the section about their work
 THEN the UI scrolls to a section with titled images of the developer's applications
 WHEN I am presented with the developer's first application
 THEN that application's image should be larger in size than the others
 WHEN I click on the images of the applications
-THEN I am taken to that deployed application
+<!-- THEN I am taken to that deployed application -->
 WHEN I resize the page or view the site on various screens and devices
 THEN I am presented with a responsive layout that adapts to my viewport
 ```
@@ -47,7 +47,7 @@ THEN I am presented with a responsive layout that adapts to my viewport
 
 The following animation shows the web application's appearance and functionality:
 
-![portfolio demo](./Assets/02-advanced-css-homework-demo.gif)
+![portfolio demo][def]
 
 
 ## Grading Requirements
@@ -115,3 +115,6 @@ https://www.w3schools.com/howto/howto_css_zoom_hover.asp
 div class for img and then an a href to the google link and another thing for img src then close the image and close the div
 
 <div class="image"><a href="https://google.com"><img src="./assets/images/travel.png"/></div></a>
+
+
+[def]: ./Assets/02-advanced-css-homework-demo.gif
